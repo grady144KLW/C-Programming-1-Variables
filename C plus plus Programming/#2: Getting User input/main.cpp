@@ -17,13 +17,6 @@ int main()
     cout << "hello " << name << " you are " << age << " years old" <<endl; // Printing out the whole information
 
 
-/*
-cout << pow(4, 2) << endl;
-cout << sqrt(16) << endl;
-cout << round(4.3) << endl;
-cout << round(4.5) << endl;
-cout << fmax(4.5, 4.6) << endl; prints out the highest number between the two
-cout << fmin(4.5, 4.6); prints out the lowest number between the two
-*/
+
     return 0;
 }

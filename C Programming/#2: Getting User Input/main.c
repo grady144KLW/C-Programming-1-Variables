@@ -14,15 +14,15 @@ stdin = telling fgets where we want to get the information from
 int main()
 {
 
-char name[20];
-printf("Enter name: ");
-fgets(name, 20, stdin);
-printf("Your name is %s\n", name);
+char name[20]; // declaring the name variable
+printf("Enter name: "); // asking the user to enter their name
+fgets(name, 20, stdin); // scans the name that the user has put
+printf("Your name is %s\n", name); // prints the name that the user puts
 
-int age;
-printf("How old r u?: ");
-scanf("%d", &age);
-printf("and you are %d years old\n", age);
+int age; // declaring the age variable
+printf("How old r u?: "); // asking the user for their age 
+scanf("%d", &age); // scans the age that the user has put
+printf("and you are %d years old\n", age); // prints the age that the user has put
 
     return 0;
 }

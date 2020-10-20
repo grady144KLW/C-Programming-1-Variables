@@ -13,13 +13,10 @@ using namespace std;
 
 int main()
 
-{   string Name = "Obadiah, ";
-    string What_they_got = "he got an ";
-    int age = 35;
-    char grade = ' A';
-    float pi = 3.14;
-    bool is_21_years_old = true;
-    bool is_22_years_old = false;
+{   string Name = "Obadiah, "; // decalring a name called Obadiah
+    string What_they_got = "he got an "; 
+    int age = 35; // declaring their age
+    char grade = ' A'; // declaring their grade
 
     cout << Name << What_they_got << grade << endl; // endl prints the new line of the code
     cout << What_they_got << What_they_got.length(); // .length prints out how many letters there are

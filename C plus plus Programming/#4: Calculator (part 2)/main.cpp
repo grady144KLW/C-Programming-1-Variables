@@ -38,7 +38,7 @@ cout << "you're answer is: " << answer << endl;
 
 else{
 
-cout << "error brother";
+cout << "invalid operator";
 }// if the user didn't put the right operator, then an error message will occur
 
 return 0;

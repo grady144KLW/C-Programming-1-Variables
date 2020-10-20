@@ -15,15 +15,15 @@ const = constant variable (can't change the values)
 
 int main()
 {
-char Name[] = "Matthew";
-char gender[] = "he";
-int age = 25;
-int salary = 296;
+char Name[] = "Matthew"; // declaring an name called matthew
+char gender[] = "he"; // declaring the gender
+int age = 25; // declaring the age
+int salary = 296; // declaring the salary
 
-printf("Brother %s\n", Name);
-printf("is %d ", age);
+printf("Brother %s\n", Name); //prints matthew
+printf("is %d ", age); // prints their age
 printf("Years old\n");
-printf("and %s works for £%dk\n", gender, salary);
+printf("and %s works for Â£%dk\n", gender, salary); // prints their salary
 
     return 0;
 }

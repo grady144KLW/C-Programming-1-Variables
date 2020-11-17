@@ -24,8 +24,8 @@ int main (void)
 	while(1) // infinate loop 
 	{
 		GPIOF -> DATA = 0x02; // turning on the red LED ()
-		delayms(100);
+		delayms(100); // waiting for a short period of time
 		GPIOF -> DATA = 0x00; // turning off the red LED ()
-		delayms(100);
+		delayms(100); // waiting for a short period of time
 	}		
 }
